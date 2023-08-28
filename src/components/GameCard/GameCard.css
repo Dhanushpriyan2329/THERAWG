@@ -1,0 +1,313 @@
+.card_items{
+    width: 15rem;
+    margin: 34px 0px;
+    border: 1px solid black !important;
+    border-radius: 22px !important;
+}
+.card_img {
+    height: 24vh;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.card-body {
+    height: 35vh;
+}
+
+.card-body:hover {
+    transition: .1s ease-in-out;
+    height: auto;
+    width: 14.9rem;
+    position: absolute;
+    top: 151px;
+    z-index: 9999;
+    background-color: #292828;
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+.card-title{
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.card-gamecount {
+    color: #ffffff;
+    width: 80px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+.card__icons {
+    color: #ffffff;
+    display: flex;
+    gap: 12px;
+    padding: 9px 0px;
+}
+
+
+.card__textdate {
+    display: none;
+}
+
+.cart__btn button{
+    display: none;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 3px;
+    text-align: start;
+    padding-left: 12px;
+    text-decoration: underline;
+}
+
+.card-body:hover >.card__textdate{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body:hover > .cart__btn button{
+    display: flex;
+    color: #000000;
+    background-color: gainsboro;
+}
+
+@media screen and (max-width: 568px){
+    .card__mainCard {
+        margin-left: 82px;
+    }
+    .card_items {
+        width: 20rem;
+    }
+    .card-title{
+        font-size: 1.5rem;
+    }
+    .card-body:hover {
+        transition: 0.1s ease-in-out;
+        height: auto;
+        width: 19.9rem;
+        top: 174px;
+    }
+    .card-gamecount{
+        margin-top: 6px;
+    }
+    .card_img {
+        height: 33vh;
+        overflow: hidden;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .card-body {
+        height: 30vh;
+    }
+    .cart__btn button{
+        display: none;
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 3px;
+        margin: 3px;
+        text-align: start;
+        padding-left: 12px;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 569px) and (max-width:768px){
+    .card_items {
+        width: 16rem;
+    }
+    .card_img {
+        height: 27vh;
+    }    
+    .card-body:hover {
+        transition: .1s ease-in-out;
+        height: auto;
+        width: 15.9rem;
+        position: absolute;
+        top: 145px;
+        z-index: 9999;
+        background-color: #292828;
+        border-radius: 0px 0px 20px 20px;
+    }
+    
+    .cart__btn button{
+        display: none;
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 3px;
+        margin: 3px;
+        text-align: start;
+        padding-left: 12px;
+        text-decoration: underline;
+    }
+
+    .card-title{
+        font-size: 1.5rem;
+    }
+    .card-body {
+        height: 35vh;
+    }
+    .linktexthead {
+        font-size: 1.5rem;
+    }
+    .main_heading > h6 {
+        font-size: 1.5rem;
+    }
+    .linktext {
+        font-size: 0.8rem;
+    }
+    .menu__icons {
+        width: 1.8rem;
+        height: 2rem;
+        border-radius: 4px;
+    }
+    .card-body:hover >.card__textdate {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:1200px)and(orientation: landscape){
+    .card_items {
+        width: 16rem;
+    }
+    .card_img {
+        height: 27vh;
+    }    
+    .card-body:hover {
+        transition: .1s ease-in-out;
+        height: auto;
+        width: 15.9rem;
+        position: absolute;
+        top: 127px;
+        z-index: 9999;
+        background-color: #292828;
+        border-radius: 0px 0px 20px 20px;
+    }
+    
+    .cart__btn button{
+        display: none;
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 3px;
+        margin: 3px;
+        text-align: start;
+        padding-left: 12px;
+        text-decoration: underline;
+    }
+
+    .card-title{
+        font-size: 1.5rem;
+    }
+    .card-body {
+        height: 35vh;
+    }
+    .linktexthead {
+        font-size: 1.5rem;
+    }
+    .main_heading > h6 {
+        font-size: 1.5rem;
+    }
+    .linktext {
+        font-size: 0.8rem;
+    }
+    .menu__icons {
+        width: 1.8rem;
+        height: 2rem;
+        border-radius: 4px;
+    }
+    .card-body:hover >.card__textdate {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1200px){
+    .linktexthead {
+        font-size: 1.5rem;
+    }
+    .linktext {
+        font-size: 0.8rem;
+    }
+    .child__component {
+        gap: 18px;
+        padding: 4px 6px;
+    }
+
+    .main_heading > h6 {
+        font-size: 1.5rem;
+    }
+    .navbar__text > h4 {
+        padding-left: 32px;
+    }
+    .card_img {
+        height: 31vh;
+    }
+    .card_items {
+        width: 18rem;
+    }
+    .card-body:hover {
+        transition: .1s ease-in-out;
+        height: auto;
+        width: 18rem;
+        position: absolute;
+        top: 151px;
+    }
+    .card-body {
+        height: 35vh;
+    }
+    .card-title {
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) and (max-width:1900px){
+    .linktexthead {
+        font-size: 1.5rem;
+    }
+    .linktext {
+        font-size: 0.8rem;
+    }
+    .child__component {
+        gap: 18px;
+        padding: 4px 6px;
+    }
+
+    .main_heading > h6 {
+        font-size: 1.5rem;
+    }
+    .navbar__text > h4 {
+        padding-left: 32px;
+    }
+    .card_img {
+        height: 31vh;
+    }
+    .card_items {
+        width: 16rem;
+    }
+    .card-body:hover {
+        transition: .1s ease-in-out;
+        height: auto;
+        width: 16rem;
+        position: absolute;
+        top: 151px;
+    }
+    .card-body {
+        height: 33vh;
+    }
+    .card-title {
+        font-size: 1.5rem;
+    }
+    
+}

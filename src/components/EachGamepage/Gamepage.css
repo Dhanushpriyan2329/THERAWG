@@ -1,0 +1,300 @@
+.gamepage {
+    display: flex;
+    width: 80%;
+    margin: 12px 27px;
+    gap: 20px;
+}
+
+.date p {
+    width: 100px;
+    background: #ffffff;
+    height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.card__icons1 {
+    color: #ffffff;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.card-title1 {
+    color: #ffffff;
+    font-size: 4rem;
+    text-align: start;
+    margin-top: 8px;    
+}
+
+
+.boxmodel {
+    width: 247%;
+    border: 1px solid #ffffff;
+    border-radius: 11px;
+    height: 10vh;
+    padding: 0px 14px;
+    color: #ffffff;
+}
+
+.mainboxmodel {
+    display: block;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.main__boxmodel{
+    display: flex;
+    gap: 27px;
+    width: 64vw;
+}
+
+.gamepage__about {
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.result__game{
+    width: 100%;
+}
+
+.side__imgcontent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.dateicons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-top: 8px;
+}
+.playhours {
+    font-size: 1.5rem;
+    color: #ffffff;
+    width: 30vw;
+}
+
+.imgs img {
+    background-color: black;
+    width: 40vw;
+    height: 50vh;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 568px){
+    .mainboxmodel {
+        display: inline-block;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    .main__boxmodel {
+        display: block;
+        width: 100%;
+    }
+    .boxmodel {
+        width: 85vw;
+        height: auto;
+        margin-top: 15px;
+    }
+    .date p {
+        padding-top: 4px;
+    }
+
+    .one__img img {
+        background-color: black;
+        width: 86vw;
+        height: 42vh;
+        margin-top: 20px;
+    }
+    .card__icons1 {
+        margin-bottom: 13px;
+        font-size: 16px;
+    }
+
+    .playhours p{
+        width: 36vw;
+        font-size: 0.8rem;
+    }
+    .gamepage__about {
+        width: 90vw;
+    }
+}
+
+@media screen and (min-width: 569px) and (max-width:768px){
+    .mainboxmodel {
+        display: inline-block;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    .main__boxmodel {
+        display: flex;
+        width: 86vw;
+        gap: 10px;
+    }
+    .boxmodel {
+        width: 85vw;
+        height: auto;
+        margin-top: 15px;
+    }
+    .date p {
+        padding-top: 4px;
+    }
+
+    .one__img img {
+        background-color: black;
+        width: 86vw;
+        height: 42vh;
+        margin-top: 20px;
+    }
+    .card__icons1 {
+        margin-bottom: 13px;
+        font-size: 16px;
+    }
+
+    .playhours p{
+        width: 36vw;
+        font-size: 0.8rem;
+    }
+    .gamepage__about {
+        width: 90vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1200px){
+    .mainboxmodel {
+        display: inline-block;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    .main__boxmodel {
+        display: flex;
+        width: 74vw;
+        gap: 10px;
+    }
+    .boxmodel {
+        width: 85vw;
+        height: auto;
+        margin-top: 15px;
+    }
+    .date p {
+        padding-top: 4px;
+    }
+
+    .one__img img {
+        background-color: black;
+        width: 74vw;
+        height: 42vh;
+        margin-top: 20px;
+    }
+    .card__icons1 {
+        margin-bottom: 13px;
+        font-size: 16px;
+    }
+
+    .playhours p{
+        width: 36vw;
+        font-size: 0.8rem;
+    }
+    .gamepage__about {
+        width: 73vw;
+    }
+}
+
+/* @media screen and (min-width: 1200px) and (max-width:1900px){
+    .gamepage {
+        display: flex;
+        width: 80%;
+        margin: 12px 27px;
+        gap: 20px;
+    }
+    
+    .date p {
+        width: 100px;
+        background: #ffffff;
+        height: 30px;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 6px;
+    }
+    
+    .card__icons1 {
+        color: #ffffff;
+        display: flex;
+        gap: 12px;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    
+    .card-title1 {
+        color: #ffffff;
+        font-size: 4rem;
+        text-align: start;
+        margin-top: 8px;    
+    }
+    
+    
+    .boxmodel {
+        width: 25%;
+        border: 1px solid #ffffff;
+        border-radius: 11px;
+        height: 7vh;
+        padding: 0px 14px;
+        color: #ffffff;
+    }
+    
+    .mainboxmodel {
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    
+    .gamepage__about {
+        color: #ffffff;
+        margin-top: 20px;
+    }
+    
+    .result__game{
+        width: 100%;
+    }
+    
+    .side__content {
+        width: 60%;
+    }
+    
+    
+    .dateicons {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+        margin-top: 8px;
+    }
+    .playhours {
+        font-size: 1.5rem;
+        color: #ffffff;
+    }
+    
+    .imgs img {
+        background-color: black;
+        width: 29vw;
+        height: 50vh;
+    }
+    
+    .imgs {
+        display: grid;
+        grid-template-columns: 55% 30%;
+        grid-template-rows: 37% 36%;
+    }
+} */
+
+
+

@@ -1,0 +1,37 @@
+
+.main_head{
+    padding: 16px 26px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.main_contentBLog {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+@media screen and (max-width: 568px){
+    .main_head h1 {
+        padding-left: 78px;
+        font-size: 2rem;
+        width: 26rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 569px) and (max-width:768px){
+    .main_contentBLog {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

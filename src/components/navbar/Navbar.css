@@ -1,0 +1,77 @@
+.navbar__menus{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.navbar__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+    align-items: center;
+    width: 100%;
+    padding: 40px 30px;
+}
+
+.navbar__menus::-webkit-scrollbar{
+    display: none;
+}
+
+.navbar__input > input{
+    width: 70vw;
+    border-radius: 20px;
+    height: 8px;
+    padding: 20px;
+}
+
+.navbar__paratext > p{
+    margin-bottom: 0rem;
+}
+
+.navbar__text > h4{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 0rem;
+    padding-left: 40px;
+
+}
+.bar{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .navbar__input > input {
+        width: 48vw;    
+        padding: 14px;
+    }
+    .navbar__paratext{
+        display: none;
+    }
+    .navbar__notificon{
+        display: none;
+    }
+    .navbar__addicon{
+        display: none;
+    }
+    .navbar__dots{
+        display: none;
+    }
+    button.bar {
+        display: block;
+        border: none;
+        background: none;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:992px){
+    .navbar__input > input {
+        width: 65vw;    
+        padding: 14px;
+    }
+}

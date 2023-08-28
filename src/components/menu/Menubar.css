@@ -1,0 +1,132 @@
+.main__menu{
+    width: 18%;
+    padding: 34px 10px;
+    cursor: pointer;
+    overflow-x: scroll;
+}
+
+.menu__icons{
+    width: 3rem;
+    border: 1px solid gray;
+    height: 2rem;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.child__component > .menu__icons:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+.main__menu::-webkit-scrollbar{
+    display: none;
+}
+
+.main__content{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.main__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_heading > h6{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.linktext{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.linktexthead{
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main_heading{
+    padding: 10px
+}
+
+.child__component {
+    display: flex;
+    gap: 20px;
+    padding: 4px 12px;
+    text-align: center;
+    align-items: center;
+}
+
+.texth6 > h6 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+.bar{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .main__menu {
+        display: none;
+    }
+    .main__menu\.active{
+        display: block;
+        background-image: linear-gradient(to right, #000000 ,#051421);
+        width: 65vw;
+        position: absolute;
+        left:0px;
+        z-index: 9999;
+        transition: all 2s ease-in-out;
+    }
+    .linktexthead {
+        font-size: 1.2rem;
+    }
+    .main_heading > h6 {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .main__text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .linktext {
+        font-size: 0.9rem;
+    }
+    button.bar {
+        display: block;
+        border: none;
+        background: none;
+        color: white;
+    }
+    .toggle {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 48px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:992px){
+    .main__menu{
+        width: 31%;
+        padding: 33px 9px;
+        cursor: pointer;
+        overflow-x: scroll;
+    }
+    
+}
